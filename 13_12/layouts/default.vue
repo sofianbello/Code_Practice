@@ -7,7 +7,7 @@
     </main>
 
     <!-- TODO: Footer -->
-    
+    <Footer/>
   </div>
 </template>
 
@@ -24,7 +24,7 @@ export default {}
 }
 
 main {
-    margin: 0 20vw;
+    /* margin: 0 20vw; */
     flex-grow: 1;
 }
 

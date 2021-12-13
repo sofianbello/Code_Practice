@@ -1,8 +1,8 @@
 <template>
     <nav>
-        <div>Home</div>
-        <div>Über mich</div>
-        <div>Kontakt</div>
+        <NuxtLink to='/Twitch'>Twitch</NuxtLink>
+        <NuxtLink to='/Youtube'>YouTube</NuxtLink>
+        <!-- <NuxtLink to='/'>Kontakt</NuxtLink> -->
     </nav>
 </template>
 
@@ -24,6 +24,12 @@ nav {
 
 nav div {
     font-size: 1.5rem;
+}
+
+nav a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #000;
 }
 
 </style>
