@@ -1,5 +1,62 @@
 html, body {
+    background-image: url('assets\img\BG_2.png');
+    background-size: cover;
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: Chalmers_Typeface;
+    src: url('assets\fonts\Chalmers_Typeface.ttf');
+    font-weight: 500;
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+nav div {
+    font-size: 1.5rem;
+}
+
+nav a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #EFC566;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+footer div {
+    font-size: 0.75rem;
+    color: #EFC566;
+}
+
+div.container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+}
+iframe.twitch-embed {
+    max-height: 85vh;
+    max-width: 70vw;
+}
+iframe.youtube-embed {
+    max-height: 85vh;
+    max-width: 70vw;
+}
+iframe.twitch-chat {
+    max-height: 85vh;
+    max-width: 20vw;
+}
+

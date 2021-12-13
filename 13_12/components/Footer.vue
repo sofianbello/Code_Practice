@@ -16,16 +16,6 @@ export default {
 
 <style>
 
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-    padding: 10px 0;
-}
 
-footer div {
-    font-size: 0.75rem;
-}
 
 </style>
