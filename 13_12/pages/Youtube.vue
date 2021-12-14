@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="yt-container">
     <iframe 
         class="youtube-embed" 
         width="1980" 

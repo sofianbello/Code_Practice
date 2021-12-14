@@ -1,9 +1,9 @@
 <template>
     <div>
         <footer class="footer">
-            <div>Imprint</div>
-            <div>Sitemap</div>
-            <div>Legal</div>
+            <NuxtLink to="/imprint">Imprint</NuxtLink>
+            <!-- <div>Sitemap</div>
+            <div>Legal</div> -->
         </footer>
     </div>
 </template>
@@ -15,7 +15,9 @@ export default {
 </script>
 
 <style>
-
-
+a {
+    font-size: 0.75rem;
+    color: #EFC566;
+}
 
 </style>

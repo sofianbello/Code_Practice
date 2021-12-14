@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="tw-container">
        <iframe
             class="twitch-embed"
             src="https://player.twitch.tv/?channel=brivals&enableExtensions=false&muted=true&parent=localhost&player=popout&volume=0.3&autoplay=true" 

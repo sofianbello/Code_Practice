@@ -4,7 +4,7 @@
         <nav>
             <!-- <NuxtLink to='/'>Home</NuxtLink> -->
             <NuxtLink to='/Twitch'>Live</NuxtLink>
-            <!-- <NuxtLink to='/Youtube'>Media</NuxtLink> -->
+            <NuxtLink to='/Youtube'>Media</NuxtLink>
             <!-- <NuxtLink to='/about'>BRIVALS</NuxtLink> -->
             <!-- <NuxtLink to='/'>Kontakt</NuxtLink> -->
         </nav>
