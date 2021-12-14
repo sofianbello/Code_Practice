@@ -2,12 +2,12 @@
   <div class="container">
     <iframe 
         class="youtube-embed" 
-        width="1280" 
-        height="720" 
-        src="https://www.youtube-nocookie.com/embed/Y88qCCP90-U" 
+        width="1980" 
+        height="1080" 
+        src="https://www.youtube.com/embed/+lastest?list=PLZ-lKRLzq7uRQ08HZfqvm7p5pJoA_cwD9"
         title="YouTube video player" 
         frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allow="autoplay; encrypted-media; gyroscope;" 
         allowfullscreen>
     </iframe>
   </div>

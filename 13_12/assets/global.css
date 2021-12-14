@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+
 html, body {
-    background-image: url('assets\img\BG_2.png');
-    background-size: cover;
+    /* background-image: url('assets\img\BG_2.png'); */
+    background-color:  #1B1D1D;
+    /* background-size: cover; */
     padding: 0;
     margin: 0;
     /* font-family: 'Open Sans', sans-serif; */
-    font-family: Chalmers_Typeface;
-    src: url('assets\fonts\Chalmers_Typeface.ttf');
-    font-weight: 500;
+    /* font-family: Chalmers_Typeface; */
+    font-family: 'Ubuntu', sans-serif;
+    /* src: url('assets\fonts\Chalmers_Typeface.otf'); */
+    z-index: 1;
+    text-transform: uppercase;
+    color: #EFC566;
 }
+
 
 nav {
     display: flex;
@@ -20,9 +28,16 @@ nav {
 nav div {
     font-size: 1.5rem;
 }
+#nav-logo {
+    display: block;
+    margin: 0 auto;
+    height: 12.5%;
+    width: 12.5%;
+}
 
 nav a {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 400;
     text-decoration: none;
     color: #EFC566;
 }
@@ -41,19 +56,23 @@ footer div {
 }
 
 div.container {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+    display: flex;
+    border-radius: 300px;
+    /* grid-template-columns: 4fr 1fr; */
     justify-items: center;
     align-items: center;
 
 }
 iframe.twitch-embed {
+    
     max-height: 85vh;
     max-width: 70vw;
 }
 iframe.youtube-embed {
+    /* overflow: hidden; */
+    /* display: block; */
     max-height: 85vh;
-    max-width: 70vw;
+    max-width: 90vw;
 }
 iframe.twitch-chat {
     max-height: 85vh;
